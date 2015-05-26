@@ -30,7 +30,7 @@
 	{% else %}
 
 		<p>Template error: unknown line format</p>
-		<code>{{line}}</code>
+		<code>{{line|json(4)}}</code>
 
 	{% endif %}
 {% endfor %}

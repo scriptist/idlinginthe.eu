@@ -20,6 +20,10 @@
 			top: 0.24em;
 			bottom: -100px;
 			left: - ($gutter + $width);
+
+			@media screen and (max-width: $breakpoint) {
+				display: none;
+			}
 		}
 	}
 
@@ -39,6 +43,7 @@
 			border-top: none;
 			clear: both;
 			float: left;
+			margin-right: $gutter;
 			padding: 5px 0;
 			text-align: center;
 			width: $header-offset - $gutter;
@@ -58,5 +63,9 @@
 
 	.post__text {
 		margin-left: $header-offset;
+
+		@media screen and (max-width: 500px) {
+			margin-left: 0;
+		}
 	}
 }

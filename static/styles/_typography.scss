@@ -6,14 +6,18 @@ html {
 
 h1 {
 	font-family: 'Lora', serif;
-	font-size: 80px;
+	font-size: 4em;
 	font-weight: normal;
 	margin: 0.1em 0;
+
+	@media screen and (max-width: $breakpoint) {
+		font-size: 3em;
+	}
 }
 
 h2 {
 	font-family: 'Marcellus SC', serif;
-	font-size: 32px;
+	font-size: 1.5em;
 	font-weight: normal;
 	margin: 0.1em 0;
 }

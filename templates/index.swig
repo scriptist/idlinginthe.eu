@@ -2,9 +2,18 @@
 
 {% block title_full %}Idling in the EU{% endblock %}
 {% block content %}
-	<ul>
-		{% for post in posts %}
-			<li><a href="/{{post.slug}}">{{post.title}}</a></li>
-		{% endfor %}
-	</ul>
+
+	<div class="home">
+		<header class="header">
+			<h1>Idling in the EU</h1>
+		</header>
+
+		<nav class="nav">
+			{% for post in posts %}
+				<a href="/{{post.slug}}">{{post.title}}</a>
+			{% endfor %}
+		</nav>
+	</div>
+
+
 {% endblock %}

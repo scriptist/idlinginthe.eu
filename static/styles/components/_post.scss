@@ -1,0 +1,62 @@
+.post {
+	margin: 0 auto;
+	max-width: $post-width;
+
+	h1, h2, h3 {
+		position: relative;
+	}
+
+	h1 {
+		margin-bottom: 0;
+		position: relative;
+
+		&::before {
+			$width: 10px;
+			border-left: $width solid;
+			display: block;
+			content: '';
+
+			position: absolute;
+			top: 0.24em;
+			bottom: -100px;
+			left: - ($gutter + $width);
+		}
+	}
+
+	h2 {
+		border-bottom: 1px solid;
+		margin-bottom: 0;
+		padding-bottom: 8px;
+	}
+
+	h3 {
+		border-top: 1px solid;
+		margin-bottom: -8px;
+
+		time {
+			background: $light-gray;
+			border: 1px solid;
+			border-top: none;
+			clear: both;
+			float: left;
+			padding: 5px 0;
+			text-align: center;
+			width: $header-offset - $gutter;
+		}
+
+		.date {
+			display: block;
+			font-size: 2em;
+			margin-bottom: -0.15em;
+		}
+	}
+
+	h2 + h3 {
+		margin-top: 0;
+		border-top: none;
+	}
+
+	.post__text {
+		margin-left: $header-offset;
+	}
+}

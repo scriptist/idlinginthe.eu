@@ -1,0 +1,21 @@
+.nav {
+	margin-top: 5em;
+	text-align: center;
+
+	h2 {
+		margin-bottom: 0.5em;
+	}
+
+	a {
+		display: block;
+		color: inherit;
+		font-size: 2em;
+		padding: 0.5em;
+		text-decoration: inherit;
+		transition: background-color 0.6s;
+
+		&:hover {
+			background-color: $light-gray;
+		}
+	}
+}

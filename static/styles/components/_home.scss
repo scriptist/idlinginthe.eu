@@ -1,0 +1,20 @@
+.home {
+	text-align: center;
+
+	h1 {
+		position: relative;
+		$shadow: 0 0 5px white;
+		text-shadow: $shadow, $shadow, $shadow, $shadow, $shadow;
+
+		&::after {
+			border-bottom: 1px solid;
+			content: '';
+			z-index: -1;
+
+			position: absolute;
+			bottom: 0.19em;
+			right: 0;
+			left: 0;
+		}
+	}
+}

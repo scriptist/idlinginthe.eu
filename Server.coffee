@@ -7,12 +7,13 @@ module.exports = class Server
 	constructor: ->
 		@getEnvironmentVariables()
 		@getPosts()
-		@getTemplates()
+		@initSwig()
 		@serve()
 
 	getEnvironmentVariables: ->
-		@ipaddress = process.env.OPENSHIFT_NODEJS_IP
-		@port      = process.env.OPENSHIFT_NODEJS_PORT || 8080
+		@ipaddress    = process.env.OPENSHIFT_NODEJS_IP
+		@port         = process.env.OPENSHIFT_NODEJS_PORT || 8080
+		@disableCache = process.env.DISABLE_CACHE == '1'
 
 		if typeof @ipaddress == "undefined"
 			# Log errors on OpenShift but continue w/ 127.0.0.1 - this
@@ -27,11 +28,11 @@ module.exports = class Server
 			data = yaml.safeLoad fs.readFileSync("posts/#{postFile}", 'utf8')
 			@posts[data.slug] = data
 
-	getTemplates: ->
-		swig.setDefaults({ loader: swig.loaders.fs(__dirname + '/templates') })
-		@templates =
-			index: swig.compileFile 'index.swig'
-			posts: swig.compileFile 'post.swig'
+	initSwig: ->
+		swig.setDefaults
+			cache: if @disableCache then false else 'memory'
+			loader: swig.loaders.fs "#{__dirname}/templates"
+			locals: posts: @posts
 
 	serve: ->
 		@app = express()
@@ -39,12 +40,18 @@ module.exports = class Server
 		@app.use express.static 'static'
 
 		@app.get '/', (req, res) =>
-			res.send @templates.index posts: @posts
+			if @disableCache
+				@getPosts()
+
+			res.send swig.renderFile "index.swig"
 
 		@app.get '/:slug', (req, res) =>
+			if @disableCache
+				@getPosts()
+
 			slug = req.params.slug
 			if slug of @posts
-				res.send @templates.posts posts: @posts, post: @posts[slug]
+				res.send swig.renderFile "post.swig", post: @posts[slug]
 			else
 				res.status(404).send 'Page not found'
 

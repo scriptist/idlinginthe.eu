@@ -1,25 +1,74 @@
 dateStart: 2015-05-23
 dateEnd: 2015-05-25
-slug: trip-name
-title: Trip Name
+slug: brussels
+title: Brussels
 content:
-    - Location
     - 2015-05-23
     -
+        author: sunny
+        text: On the morning of Michael’s birthday, I woke him up at the ungodly hour of half past five in the morning. A taxi, train, and one international flight later, we arrived in Brussels – the location I’d selected for the weekend trip with which we would celebrate his aging.
+    -
+        author: sunny
+        text: Like all international airports, Brussels Airport was at first glance rather anonymous, what with the same modern architecture and abundance of English that characterises all structures of its nature. One distinctive mark, however, was the public signage and advertisements that consistently appeared in both French and Dutch, the two official languages of the city. We bought first class tickets on the train that took us into the city of Brussels itself, which resulted in a pleasant ride in a spacious and mostly-empty carriage.
+    -
         author: michael
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - http://res.cloudinary.com/scriptist/image/upload/v1431521739/otterornotter.com/1406571_38975071.jpg
+        text: Sunny had been very secretive planning this trip, and I had no idea where we were heading. We changed onto a metro train, and eventually arrived in Louise. As we left the train station, I saw a big building simply labelled ‘The Hotel’.
+    -
+        author: michael
+        text: “Is that The Hotel?” I joked. “Yep.” It was a beautiful hotel, and Sunny had booked us a corner room with a view of the Atomium! Needless to say, I was rather excited.
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/GOPR1900.jpg
     -
         author: sunny
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        text: Once we had rested for a bit, we left our hotel with the plan to wander toward the grandest of places – that is, the Grand Place, also known as the Grote Markt, which is the main square of Brussels. The walk took us through streets lined art galleries, along cobbled roads, past grand copper statues of men on horseback, and past some typically pretty European architecture. However, we never actually arrived at Grand Place that day, as about half an hour before the dinner reservation I’d made, my smart watch alerted me to the fact that we should start walking in that direction if we wanted to arrive on time; and so we switched course to do exactly that.
     -
-        author: sunny
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        author: michael
+        text: We arrived at a beautiful Asian fusion restaurant called Rock Salt Chilli Peppers - for our entrée Sunny had some Thai spiced chicken wings and I had some pork bun burgers (just like a regular pork bun but with a burger form factor). My main course was a beautiful spicy chicken curry, and Sunny ate a turkey kimchi roll with ‘Asian risotto’, which was essentially a giant sushi roll filled with risotto. A lovely way to end my rather surprising birthday.
     - 2015-05-24
     -
+        author: michael
+        text: After relaxing in bed for a while, we got up and headed towards the Atomium. We arrived about ten minutes before it opened, so we decided we’d replicate a photo my brother took a few years prior - I think it turned out pretty well.
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/david-atomium.jpg
+    -
         author: sunny
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - Next Location
+        text: Upon braving the queue and acquiring tickets, we headed into the Atomium itself for a tour. The first part of the tour consisted of an elevator trip that went straight up the central shaft into the highest sphere that was open to the public. The transparent ceiling of the elevator let us see all the structural guts of the shaft.
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/GOPR1911.jpg
+    -
+        author: sunny
+        text: This was where the viewing deck and restaurant were located. We enjoyed the lookout, and also found out why three of the Atomium’s spheres weren’t open to the public - i.e. they lacked vertical supports and would thus presumably be unsafe for throngs of tourists to fill.
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/GOPR1916.jpg
+    -
+        author: sunny
+        text: The rest of the tour consisted of visiting the remaining spheres, which contained various exhibitions. One of them was about the 1958 World’s Fair, for which the Atomium was constructed and used as a symbol to promote peaceful uses of atomic energy. Another exhibit was all about the advent of plastic as a material for use in everyday life - it consisted of various rooms of a home, all of which were furnished entirely in varying shades of orange plastic. It was a very retro display of furniture, clothing, and ornaments.
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/GOPR1933.jpg
+    -
+        author: sunny
+        text: After the Atomium, we visited the next-door attraction of Mini-Europe, which was a park filled with miniatures of iconic buildings from many buildings in the European Union. We followed a path marked out by arrows on the ground that took us winding through Scandinavia, through continental Europe, and across the English Channel. Some highlights included a scene of the Berlin Wall being knocked down, and an ‘Ancient Roman’ construction site filled with anachronisms such as modern safety signage, men in togas seated in a row high up on construction beams, and the like.
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/GOPR1940.jpg
     -
         author: michael
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        text: We caught the metro back towards the city center - Grand Place specifically. We saw some beautiful waffles and some amazing ice cream, but we were resisting the urge to eat, as we wanted to keep our bellies empty for our next activity - a waffle making workshop. Though the ice cream store was very tempting…
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/GOPR1949.jpg
+    -
+        author: michael
+        text: It took about twenty minutes before our waffle-host showed up to collect us - he’d forgotten about us! We were taken to a restaurant’s function room which had been laid out with cooking supplies. While preparing our waffles we were taught the difference between real waffles and street waffles, and learned a bit about their history. We then tried all sorts of different toppings, and continued eating waffles until we could eat no more.
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/GOPR1959.jpg
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/GOPR1952.jpg
+    -
+        author: sunny
+        text: When the waffle workshop concluded, we arrived back at our hotel to settle in for a leisurely, relaxing evening (which partly consisted of designing a certain travel blog). For dinner, we made use of the in-room dining service, from which we ordered a very delicious burger and club sandwich.
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/GOPR1976.jpg
+    - 2015-05-25
+    -
+        author: sunny
+        text: Our original plan for our final morning in Brussels involved getting breakfast and hanging out in the vicinity of the Midi / Zuid metro station, from which we would then catch a train to the airport. This was somewhat foiled when we discovered there wasn’t a whole lot to do around here. We did manage to get breakfast, though - at a sandwich shop whose cheap machine-made hot chocolate turned out, of course, to be way better than hot chocolates from many a Sydney café. Such is Belgium.
+    -
+        author: sunny
+        text: We also wanted to do some chocolate shopping; there weren’t any shops nearby, so we walked to Grand Place once more and visited a Belgian chocolate boutique named Elisabeth.
+    -
+        author: michael
+        text: Once our bags were ready to burst with chocolate, we moved on to the premier attraction Belgium has to offer - Manneken Pis. This four hundred year old sculpture of a urinating child has a surprisingly complex and varied history, and has even made appearances in Peter Sellers and Tom Hanks movies.
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/IMG_20150525_122655.jpg
+    -
+        author: sunny
+        text: We then walked to Centraal train station and made our way back to the airport. We spent a leisurely few hours there listening to podcasts and doodling, before boarding the plane that took us back home.
+    - http://res.cloudinary.com/scriptist/image/upload/idlinginthe.eu/brussels/GOPR1993.jpg

@@ -27,12 +27,12 @@ module.exports = class Server
 		postFiles.forEach (postFile) =>
 			data = yaml.safeLoad fs.readFileSync("posts/#{postFile}", 'utf8')
 			@posts[data.slug] = data
+			swig.setDefaults locals: posts: @posts
 
 	initSwig: ->
 		swig.setDefaults
 			cache: if @disableCache then false else 'memory'
 			loader: swig.loaders.fs "#{__dirname}/templates"
-			locals: posts: @posts
 
 	serve: ->
 		@app = express()

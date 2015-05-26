@@ -35,7 +35,8 @@
 
 	h3 {
 		border-top: 1px solid;
-		margin-bottom: -8px;
+		margin-bottom: $gutter / 2;
+		text-transform: uppercase;
 
 		time {
 			background: $light-gray;
@@ -63,13 +64,42 @@
 
 	.post__text {
 		margin-left: $header-offset;
+		margin-top: $gutter / 2;
+
+		>:first-child {
+			margin-top: 0;
+		}
 
 		@media screen and (max-width: 500px) {
 			margin-left: 0;
 		}
+
+		&::before {
+			border-bottom: 1px solid #ccc;
+			display: block;
+			font-size: 0.8em;
+			margin-bottom: 0.5em;
+			padding-bottom: 0.2em;
+			text-align: right;
+
+			@media screen and (max-width: 500px) {
+				display: block;
+				margin: 0 0 0 auto;
+				width: 8em;
+			}
+		}
+
+		&[data-author=michael]::before {
+			content: 'Michael';
+		}
+
+		&[data-author=sunny]::before {
+			content: 'Sunny';
+		}
 	}
 
 	.post__image {
+		margin: $gutter 0;
 		margin-left: 50%;
 		text-align: center;
 		width: 80vw;

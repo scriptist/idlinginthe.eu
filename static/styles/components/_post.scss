@@ -68,4 +68,18 @@
 			margin-left: 0;
 		}
 	}
+
+	.post__image {
+		margin-left: 50%;
+		text-align: center;
+		width: 80vw;
+
+		position: relative;
+		left: -40vw;
+
+		img {
+			max-height: 80vh;
+			max-width: 80vw;
+		}
+	}
 }

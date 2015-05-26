@@ -18,6 +18,12 @@
 					</time>
 				</h3>
 
+			{% elseif line|lineType == 'image' %}
+
+				<div class="post__image">
+					<img src="{{line}}" alt="">
+				</div>
+
 			{% elseif line|lineType == 'paragraph' %}
 
 				{% set prev = post.content[loop.index0 - 1] %}
@@ -34,7 +40,7 @@
 
 			{% else %}
 
-				<p>Template error: unknown line format</p>
+				<p>Template error: unknown line format: {{line|lineType}}</p>
 				<code>{{line|json(4)}}</code>
 
 			{% endif %}

@@ -34,6 +34,16 @@ module.exports = class Server
 			cache: if @disableCache then false else 'memory'
 			loader: swig.loaders.fs "#{__dirname}/templates"
 
+			swig.setFilter 'lineType', (line) ->
+				if typeof line == 'string'
+					'location'
+				else if line instanceof Date
+					'date'
+				else if typeof line == 'object' and line.author and line.text
+					'paragraph'
+				else
+					'unknown'
+
 	serve: ->
 		@app = express()
 		@app.use express.json()

@@ -32,7 +32,7 @@
 					<div class="post__text" data-author="{{line.author}}">
 				{% endif %}
 
-						<p>{{line.text}}</p>
+						<p>{{line.text|safe}}</p>
 
 				{% if !next || next|lineType != 'paragraph' || next.author != line.author %}
 					</div>

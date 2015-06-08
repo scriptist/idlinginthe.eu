@@ -35,7 +35,7 @@ module.exports = class Server
 			loader: swig.loaders.fs "#{__dirname}/templates"
 
 			swig.setFilter 'lineType', (line) ->
-				if typeof line == 'string' && line.match /\.jpg/
+				if typeof line == 'string' && line.match /\.(jpg|gif)/
 					'image'
 				else if typeof line == 'string'
 					'location'

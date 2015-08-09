@@ -35,16 +35,22 @@ module.exports = class Server
 			loader: swig.loaders.fs "#{__dirname}/templates"
 
 			swig.setFilter 'lineType', (line) ->
-				if typeof line == 'string' && line.match /\.(jpg|gif)/
-					'image'
-				else if typeof line == 'string'
-					'location'
-				else if line instanceof Date
-					'date'
-				else if typeof line == 'object' and line.author and line.text
-					'paragraph'
+				if typeof line == 'object'
+					if line.author and line.text
+						'paragraph'
+					else if line.type == 'video' and line.source
+						'video'
+					else if line instanceof Date
+						'date'
+					else
+						'unknown'
 				else
-					'unknown'
+					if typeof line == 'string' && line.match /\.(jpg|gif)/
+						'image'
+					else if typeof line == 'string'
+						'location'
+					else
+						'unknown'
 
 	serve: ->
 		@app = express()

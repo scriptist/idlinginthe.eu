@@ -24,6 +24,14 @@
 					<img src="{{line}}" alt="">
 				</div>
 
+			{% elseif line|lineType == 'video' %}
+
+				<div class="post__video">
+					<video controls>
+						<source src="{{line.source}}" />
+					</video>
+				</div>
+
 			{% elseif line|lineType == 'paragraph' %}
 
 				{% set prev = post.content[loop.index0 - 1] %}
@@ -32,7 +40,9 @@
 					<div class="post__text" data-author="{{line.author}}">
 				{% endif %}
 
-						<p>{{line.text|safe}}</p>
+					{% for text in line.text %}
+						<p>{{text|safe}}</p>
+					{% endfor %}
 
 				{% if !next || next|lineType != 'paragraph' || next.author != line.author %}
 					</div>

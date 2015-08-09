@@ -38,6 +38,8 @@ module.exports = class Server
 				if typeof line == 'object'
 					if line.author and line.text
 						'paragraph'
+					else if line.type == 'image' and line.source
+						'image'
 					else if line.type == 'video' and line.source
 						'video'
 					else if line instanceof Date

@@ -21,7 +21,11 @@
 			{% elseif line|lineType == 'image' %}
 
 				<div class="post__image">
-					<img src="{{line}}" alt="">
+					{% if line.source %}
+						<img src="{{line.source}}" alt="{{line.alt}}">
+					{% else %}
+						<img src="{{line}}" alt="">
+					{% endif %}
 				</div>
 
 			{% elseif line|lineType == 'video' %}

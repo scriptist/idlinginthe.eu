@@ -15,7 +15,7 @@
 
 		{% block content %}{% endblock %}
 
-		{#<script src="/scripts/global.js"></script>#}
+		<script src="/scripts/global.js"></script>
 
 		<!-- Google Analytics -->
 		<script>

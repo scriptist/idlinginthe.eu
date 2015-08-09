@@ -34,6 +34,7 @@
 					<video controls>
 						<source src="{{line.source}}" />
 					</video>
+					<button class="post__video__play">Play</button>
 				</div>
 
 			{% elseif line|lineType == 'paragraph' %}

@@ -32,7 +32,10 @@
 
 				<div class="post__video">
 					<video controls>
-						<source src="{{line.source}}" />
+						{% for source in line.source %}
+							<source src="{{source.url}}" type="{{source.type}}">
+						{% endfor %}
+						Your browser does not support HTML5 video, so you will not be able to view this video.
 					</video>
 					<button class="post__video__play">Play</button>
 				</div>

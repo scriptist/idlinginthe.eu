@@ -45,9 +45,13 @@
 					<div class="post__text" data-author="{{line.author}}">
 				{% endif %}
 
-					{% for text in line.text %}
-						<p>{{text|safe}}</p>
-					{% endfor %}
+					{% if line.text|isString %}
+						<p>{{line.text|safe}}</p>
+					{% else %}
+						{% for text in line.text %}
+							<p>{{text|safe}}</p>
+						{% endfor %}
+					{% endif %}
 
 				{% if !next || next|lineType != 'paragraph' || next.author != line.author %}
 					</div>

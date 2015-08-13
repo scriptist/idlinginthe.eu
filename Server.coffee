@@ -34,6 +34,9 @@ module.exports = class Server
 			cache: if @disableCache then false else 'memory'
 			loader: swig.loaders.fs "#{__dirname}/templates"
 
+			swig.setFilter 'isString', (elm) ->
+				return typeof elm == 'string'
+
 			swig.setFilter 'lineType', (line) ->
 				if typeof line == 'object'
 					if line.author and line.text

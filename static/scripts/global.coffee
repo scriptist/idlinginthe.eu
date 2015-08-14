@@ -17,18 +17,19 @@ for elm in document.querySelectorAll '.post__video'
 	button = elm.querySelector '.post__video__play'
 	video = elm.querySelector 'video'
 
-	if video
-		checkVideo video, elm
+	do (elm, button, video) ->
+		if video
+			checkVideo video, elm
 
-		video.addEventListener 'play', ->
-			checkVideo video, elm
-		video.addEventListener 'pause', ->
-			checkVideo video, elm
-		video.addEventListener 'ended', ->
-			checkVideo video, elm
-		video.addEventListener 'click', ->
-			togglePlay video
-
-		if button
-			button.addEventListener 'click', ->
+			video.addEventListener 'play', ->
+				checkVideo video, elm
+			video.addEventListener 'pause', ->
+				checkVideo video, elm
+			video.addEventListener 'ended', ->
+				checkVideo video, elm
+			video.addEventListener 'click', ->
 				togglePlay video
+
+			if button
+				button.addEventListener 'click', ->
+					togglePlay video

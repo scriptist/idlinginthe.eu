@@ -50,7 +50,7 @@ module.exports = class Server
 					else
 						'unknown'
 				else
-					if typeof line == 'string' && line.match /\.(jpg|gif)/
+					if typeof line == 'string' && line.match /\.(jpg|gif)/i
 						'image'
 					else if typeof line == 'string'
 						'location'

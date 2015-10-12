@@ -7,7 +7,7 @@ content:
     -
         author: sunny
         text:
-            - After our trip through Europe, we boarded the MSC Armonia for a week-long cruise through the Mediterranean which Michael had organised for us. It was pretty amazing.
+            - After our <a href="/european-spiral">trip through Europe</a>, we boarded the MSC Armonia for a week-long cruise through the Mediterranean which Michael had organised for us. It was pretty amazing.
             - We boarded at the Marseille cruise port and were led to our room. Michael had already booked a very nice room with a balcony, and upon arrival, we suspected that we had actually been upgraded to a suite. The room was incredibly spacious (quite possibly the same size as our student apartment in Tübingen), with furniture on the balcony, a leather sofa, and even a bath.
             - We relaxed in our room for a while, and then wandered up to the buffet for a snack where we enjoyed a multitude of dishes. We also decided to buy the Allegrissimo drinks package, which let us get unlimited drinks and ice cream for the duration of the cruise.
             - That evening, we enjoyed a lovely dinner in the on-board restaurant, La Pergola. It was quite fancy, and we were pretty underdressed in our very comfortable ‘travelling through Europe for weeks’ attire. After dinner we made use of our drinks package to try some of the cocktails before going to sleep in our excellent room.
@@ -98,7 +98,7 @@ content:
     -
         author: sunny
         text:
-            - "Michael had mentioned before that he had arranged a surprise for me in Marseille. One taxi ride later, about half an hour away from the city centre, we arrived at it: a campsite by the name of Attrap Reves [TODO]. There were five campsites here, each one comprising of a large, air-filled, transparent bubble. Each bubble contained a lovely arrangement of furniture, power points, and a heater, and was at the end of its own secluded pathway, so that its inhabitants had privacy while feeling quite out in the open with nature. The place was simply amazing and the perfect place to relax after our weeks of travel."
+            - "Michael had mentioned before that he had arranged a surprise for me in Marseille. One taxi ride later, about half an hour away from the city centre, we arrived at it: a campsite by the name of Attrap'Rêves. There were five campsites here, each one comprising of a large, air-filled, transparent bubble. Each bubble contained a lovely arrangement of furniture, power points, and a heater, and was at the end of its own secluded pathway, so that its inhabitants had privacy while feeling quite out in the open with nature. The place was simply amazing and the perfect place to relax after our weeks of travel."
     -
         author: michael
         text:
@@ -109,3 +109,4 @@ content:
         author: sunny
         text:
             - The next day, we picked up a breakfast basket from reception and took it back to our bubble to dine at the picnic table that sat next to it. We had delicious pastries, fresh orange juice, and hot chocolate, before packing up and bidding farewell to Marseille.
+            - We then set off on the next leg of our journey, which would take us to London and Paris, which you can read about by clicking <a href="/london-and-paris">here</a>.

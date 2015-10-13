@@ -13,19 +13,27 @@ content:
         author: sunny
         text:
             - We arrived in Amsterdam in the late afternoon, and checked into our hotel. We stayed in Zaandam this time, an area about fifteen minutes’ metro ride away from the expensive city centre.
+            - Also, there was a grocery store near our hotel which had an orange juice machine.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150914_111209.jpg
     - 2015-09-14
+    -
+        author: sunny
+        text:
+            - On our first full day in Amsterdam, we headed into the city centre and explored. As we’d done most of the touristy stuff (guided tours, museums, etc.) on our first visit in August, this time we mostly just wandered around on our own, enjoying some cafes and boutiques.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150913_163637.jpg
     -
         author: michael
         text:
-            - On our first full day in Amsterdam, we headed into the city centre and explored. As we’d done most of the touristy stuff (guided tours, museums, etc.) on our first visit in August, this time we mostly just wandered around on our own, enjoying some cafes and boutiques.
-            - The reason we’d come to Amsterdam once again was so I could attend a web development conference on a tool developed by Google called Polymer - it was to happen the following day, so we spent the morning wandering around Amsterdam, trying to avoid the places we’d been the last time.
-            - After enjoying a lovely afternoon burger in a restaurant it started to rain, so we decided to head to the Polymer Conference venue to could check in early and get my bag of goodies. We began the ten minute walk from the station to the venue, a waterfront concert hall, when it started to rain. At first just lightly, but it rather suddenly started bucketing down - to quote Douglas Adams, “someone seemed to be pouring something which closely resembled the Atlantic Ocean over them through a sieve.”
+            -
+            - The reason we’d come to Amsterdam once again was so I could attend a web development conference on a tool developed by Google called Polymer – it was to happen the following day, so we spent the morning wandering around Amsterdam, trying to avoid the places we’d been the last time.
+            - After enjoying a lovely afternoon burger in a restaurant it started to rain, so we decided to head to the Polymer Conference venue to could check in early and get my bag of goodies. We began the ten minute walk from the station to the venue, a waterfront concert hall, when it started to rain. At first just lightly, but it rather suddenly started bucketing down – to quote Douglas Adams, “someone seemed to be pouring something which closely resembled the Atlantic Ocean over them through a sieve.”
             - There were no nearby buildings to hide under, but there was a check-in marquee for a river cruise boat, underneath which some cruise employees were motioning for us to join them. We huddled under it for a few minutes, but as our legs were still being soaked by the rain we decided to turn back and make a break for the station.
             - We ran for a couple of minutes before arriving drenched and exhausted in the station.
     -
         author: sunny
         text:
             - We then headed to the Starbucks at Amsterdam Centraal train station in order to pass the time and take shelter from the rain. It was where we’d spent some time on our last trip, so hanging out there with drinks and cake felt nicely familiar.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150914_162309.jpg
     -
         author: michael
         text:
@@ -35,10 +43,12 @@ content:
         author: michael
         text:
             - I woke up early to head to the conference. I can’t say there was much worth blogging about, but I did certainly enjoy myself! Here’s a photo of a presenter standing in front of his slide, after it was pointed out to him that the image in his slide looked like somebody with a huge mouth enjoying a lollipop.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150915_093556.jpg
     -
         author: sunny
         text:
             - While Michael was off at the conference, I slept in a bit, then headed into Amsterdam by myself. I revisited a boutique and bought a dress which I’d been eyeing the day before but had resisted acquiring because it didn’t fit quite right. I then went back to the hotel, acquired sewing kits from reception, and spent the rest of the afternoon relaxing in the hotel room, making a minor alteration to the dress while watching comedy YouTube videos.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150914_131345.jpg
     - 2015-09-16
     -
         author: sunny
@@ -49,6 +59,7 @@ content:
         author: sunny
         text:
             - "We arrived by train in the evening and checked into our hotel, which was a budget two-star affair. The room was about 90% taken up by the bed, but possessed other merits to make up for its size, namely: excellent soundproofing (we were at Rosenthaler Platz again, a busy intersection in the city centre, convenient but very loud), air conditioning, and a decently-sized bathroom. We bought a quick dinner at a kebab shop, then went to sleep."
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150916_200654.jpg
     - 2015-09-17
     -
         author: sunny
@@ -59,26 +70,33 @@ content:
         author: michael
         text:
             - We boarded a train in the morning, and after a relaxing and totally uneventful trip, we arrived in Prague in the afternoon.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150918_153749.jpg
     - Prague
     -
         author: michael
         text:
-            - After checking in to our lovely little hotel, we went out to the city centre for a game of mini golf. It was a small indoor venue lit entirely by blacklights that offered a package including a game of mini golf and a couple of bottles of beer - it was a fun game, but even better was their golf billiards - essentially a billiards table on the floor, with coloured golf balls to play with. What a brilliant idea!
+            - After checking in to our lovely little hotel, we went out to the city centre for a game of mini golf. It was a small indoor venue lit entirely by blacklights that offered a package including a game of mini golf and a couple of bottles of beer – it was a fun game, but even better was their golf billiards – essentially a billiards table on the floor, with coloured golf balls to play with. What a brilliant idea!
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150918_195357.jpg
     - 2015-09-19
     -
         author: sunny
         text:
-            - We began our first full day in Prague with a ‘communism and nuclear bunker tour’. This was a walking tour which first led us around Prague and covered the communist history of the Czech Republic (formerly Czechoslovakia). Our tour guide talked a bit softly and didn’t seem hugely enthusiastic, but it was otherwise quite interesting - especially the bit where we did a tour of a 1950s-built nuclear bunker. The bunker was deep underground and had been put to various uses since its Cold War heyday. We saw some Xbox logos painted onto the ground, from when it had been rented for a video game promotion. Our tour had also rented part of the bunker and converted it into a small museum packed with gas masks, propaganda posters, and a selection of Soviet-style coats and hats that we could try on.
+            - We began our first full day in Prague with a ‘communism and nuclear bunker tour’. This was a walking tour which first led us around Prague and covered the communist history of the Czech Republic (formerly Czechoslovakia). Our tour guide talked a bit softly and didn’t seem hugely enthusiastic, but it was otherwise quite interesting – especially the bit where we did a tour of a 1950s-built nuclear bunker. The bunker was deep underground and had been put to various uses since its Cold War heyday. We saw some Xbox logos painted onto the ground, from when it had been rented for a video game promotion. Our tour had also rented part of the bunker and converted it into a small museum packed with gas masks, propaganda posters, and a selection of Soviet-style coats and hats that we could try on.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150919_122351.jpg
     -
         author: michael
         text:
-            - We headed out for our evening’s tour - first a bus tour of the city, followed by a dinner cruise. On the bus tour we saw various historic sites, but I think the one which I enjoyed the most was the Dancing House, designed by Frank Gehry.
-            - We then boarded our river boat, and enjoyed a delicious hot dinner.
+            - We headed out for our evening’s tour – first a bus tour of the city, followed by a dinner cruise. On the bus tour we saw various historic sites, but I think the one which I enjoyed the most was the Dancing House, designed by Frank Gehry. We then boarded our river boat, and enjoyed a delicious hot dinner.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150919_191156.jpg
     - 2015-09-20
     -
         author: sunny
         text:
             - In the morning, we visited MindMaze, a place that did escape games. We’d heard of escape games before (they seemed common in most European cities we’d visited) – the basic idea is that you get locked into a room and you have an hour to ‘escape’, using clues and puzzles that are found in the room. The Prague MindMaze company had amazing TripAdvisor reviews and we’d both been curious about trying an escape game, so we made a booking for a room which had an alchemy / philosopher’s stone theme to it.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150920_111341.jpg
+    -
+        author: sunny
+        text:
             - A staff member explained the rules to us and then we were locked into the room. It was about the size of a small-ish bedroom and relatively empty, but with a lot of alchemical paraphernalia present – pictures of symbols on the wall, a set of flasks filled with coloured liquids sitting on a narrow cabinet, a small cauldron, and so on. We immediately started looking through everything for clues and were rewarded after a while. I won’t write too much else about the game because that would be giving too much away, but in short, it was an hour of exploring our room and solving logic puzzles that eventually got us the key to our freedom a couple minutes before time was up. It was incredibly fun and our guide only had to give us a couple of clues over the walkie-talkie when we were stuck.
             - The only unfortunate bit about the excellent escape game was that I spent a lot of it having coughing fits, as I think I had caught some kind of illness on the dinner cruise and was now soaking in the symptoms of headaches, a runny nose, and general discomfort. For the rest of the day, Michael and I mostly just rested in our hotel room, as he’d started to catch my cold too.
     -
@@ -94,48 +112,85 @@ content:
     -
         author: michael
         text:
-            - We relaxed in our hotel for some time, researching the best nearby place to buy a Wiener schnitzel. After a great deal of research, we headed out to Columbusbräu something something, where I ate one of the most delicious schnitzels I’d ever had.
+            - We relaxed in our hotel for some time, researching the best nearby place to buy a Wiener schnitzel. After a great deal of research, we headed out to Columbusbräu, where I ate one of the most delicious schnitzels I’d ever had.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150921_194134.jpg
     - 2015-09-22
     -
         author: sunny
         text:
-            - We spent most of our full day in Vienna enjoying a hop-on, hop-off tour bus that took us to various sites throughout the city and included audio commentary. The city rather grand and lovely, although I was still sick at this point so probably didn’t enjoy it as much as I otherwise would have.
+            - We spent most of our full day in Vienna enjoying a hop-on, hop-off tour bus that took us to various sites throughout the city and included audio commentary. The city was rather grand and lovely, although I was still sick at this point so probably didn’t enjoy it as much as I otherwise would have.
     -
         author: michael
         text:
-            - We disembarked at the stop of Vienna’s second most famous landmark - the giant ferris wheel in Prater. It was famously used in the movie The Third Man which I’d studied in school, and I can’t say I ever thought I’d ever actually visit it.
+            - We disembarked at the stop of Vienna’s second most famous landmark – the giant ferris wheel in Prater. It was famously used in the movie The Third Man which I’d studied in school, and I can’t say I ever thought I’d ever actually visit it.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150922_152007.jpg
+    -
+        author: michael
+        text:
             - The whole area has slowly transformed into a theme park, with each ride owned and operated by various different businesses. We spent perhaps an hour visiting some of these, including a fairly extreme roller coaster called Boomerang.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150922_144902.jpg
+    -
+        author: michael
+        text:
+            -
             - We had dinner in the Hard Rock Cafe, as Sunny had never eaten there.
-            - On our way to the train station, we passed the Vienna State Opera. This spectacular building had a rather unique feature - a giant projector screen on the outside, which together with a number of large speakers would display the show inside live for people passing on the street.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150922_175553.jpg
+    -
+        author: michael
+        text:
+            - On our way to the train station, we passed the Vienna State Opera. This spectacular building had a rather unique feature – a giant projector screen on the outside, which together with a number of large speakers would display the show inside live for people passing on the street.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150922_192429.jpg
     -
         author: sunny
         text:
-            - We spent most of our full day in Vienna enjoying a hop-on, hop-off tour bus that took us to various sites throughout the city and included audio commentary. The city rather grand and lovely, although I was still sick at this point so probably didn’t enjoy it as much as I otherwise would have.
-            - Our car in the overnight train to Venice was quite cramped, but the beds were comfortable enough, we had been provided with refreshments and a sink, and best of all, we could go to sleep and wake up at our destination in the morning.
+            - Our car in the overnight train to Venice was quite cramped, but the beds were comfortable enough. We had been provided with refreshments and a sink, and best of all, we could go to sleep and wake up at our destination in the morning.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150922_212816.jpg
     - Venice
     - 2015-09-23
     -
         author: michael
         text:
-            - We arrived in Venice, and walked about half an hour through various alleys and across various bridges to our hotel. We dropped our bags there, and headed out to look at St Mark’s Square. We then also took a gondola ride around the city, as our gondolier pointed out various highlights, including the building in which Vivaldi once lived.
+            - We arrived in Venice, and walked about half an hour through various alleys and across various bridges to our hotel. We dropped our bags there, and headed out to look at St Mark’s Square.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150923_122707.jpg
+    -
+        author: michael
+        text:
+            - We then also took a gondola ride around the city, as our gondolier pointed out various highlights, including the building in which Vivaldi once lived.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150923_112445.jpg
     -
         author: sunny
         text:
             - In the afternoon, we embarked on a free walking tour of Venice. Our guide was a woman from Lithuania (if I remember correctly) who had moved to Venice and lived in the city for a while. She was quite knowledgeable about the history of the place and very passionate about the topic, all in all a good guide. We roamed the streets of Venice for about two hours while learning of how the city had been built on a swamp, how aristocratic women in the past had used urine (for the ammonia) to dye their hair a fashionable shade of red, and how Venice was slowly dying due to an exodus of citizens.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150923_173356.jpg
+    -
+        author: sunny
+        text:
             - After our tour, we had dinner at the Ristorante Antico Gatoleto, a restaurant that our guide had recommended as being one of her personal favourites. I ordered a lasagne and Michael ordered a pizza. The ambience was good, although our food took about an eon to arrive. It was, however, quite delicious. After a dessert of gelato bought at one of the many, many gelaterias in Venice, we returned to our hotel.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150924_095607.jpg
     - 2015-09-24
     -
         author: sunny
         text:
             - The next day, we bought day tickets for the vaporetto, or water bus. We made our way to Murano, an island close to the Venice city centre that was famed for its glass. We’d booked a tour of a glass factory. Our guide showed us some demonstrations, in which we watched a vase being blown and a horse being sculpted with incredible speed and ease out of molten glass. We then spent a while wandering through the factory’s showrooms. As part of booking the tour, we got a twenty Euro voucher for spending in the store and used this to buy one of the glass horses.
     -
+        type: video
+        source:
+            -
+                url: http://res.cloudinary.com/scriptist/video/upload/q_70/idlinginthe.eu/european-spiral/VID_20150924_111018.mp4
+                type: video/mp4
+            -
+                url: http://res.cloudinary.com/scriptist/video/upload/q_70/idlinginthe.eu/european-spiral/VID_20150924_111018.webm
+                type: video/webm
+    -
         author: michael
         text:
             - We then caught the ferry from Murano to Burano, which it turns out is an actual island, not just “Murano” said by somebody with a cold. There we saw the beautiful coloured buildings, and a large number of residents who only seemed slightly irritated that their home island was filled with tourists.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150924_140954.jpg
     -
         author: sunny
         text:
             - Our final stop before heading back to Venice proper was the island of Lido. Here we rented a tandem bike and spent about an hour riding around the island.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150924_154809.jpg
     - 2015-09-25
     -
         author: sunny
@@ -146,13 +201,24 @@ content:
         author: michael
         text:
             - Milan’s main station is rather grand. This is somewhat of an understatement, but there are simply no words to describe how insanely grand it is, both inside and out. Luckily, there are photos.
-            - We walked to our hotel, where the proprietor informed us in his charming Italian accent he was unable to house us - “We had a little accident, I don’t want to tell you what it was. Well, okay, the water was leaking through the ceiling into the room, and it’s stopped but it’s still a little wet”. Fortunately he had a backup plan - he drove us in his personal car to a nicer (and much more expensive) hotel, which he then also paid for.
-            - Having been hooked on escape games in Prague, we decided to give another one a go. This one was Cold War themed, and we had to prevent the launch of two missiles. It was much harder than the first - in addition to simply finding the control panel (hidden behind a bookshelf), we needed to find two keys to operate it, the positions of eight switches, and connect six wires in the right spots. We finally solved it with just two minutes to spare! Our hostess told us afterwards that most groups of two never even find the control panel, let alone decipher the code.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150925_161059.jpg
+    -
+        author: michael
+        text:
+            - We walked to our hotel, where the proprietor informed us in his charming Italian accent that he was unable to house us – “We had a little accident, I don’t want to tell you what it was. Well, okay, the water was leaking through the ceiling into the room, and it’s stopped but it’s still a little wet”. Fortunately he had a backup plan – he drove us in his personal car to a nicer (and much more expensive) hotel, which he then also paid for.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150925_165557.jpg
+    -
+        author: michael
+        text:
+            - Having been hooked on escape games in Prague, we decided to give another one a go. This one was Cold War themed, and we had to prevent the launch of two missiles. It was much harder than the first – in addition to simply finding the control panel (hidden behind a bookshelf), we needed to find two keys to operate it, the positions of eight switches, and connect six wires in the right spots. We finally solved it with just two minutes to spare! Our hostess told us afterwards that most groups of two never even find the control panel, let alone decipher the code.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150925_194526.jpg
     - 2015-09-26
     -
         author: sunny
         text:
             - The next morning, we enjoyed a nice breakfast in the hotel, then went to see Milan’s famous cathedral. Unfortunately, as we had glass with us (in the form of our souvenirs from Murano), we weren’t able to actually go into the cathedral to have a look.
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150926_123227.jpg
+    - http://res.cloudinary.com/scriptist/image/upload/w_1000,q_75/idlinginthe.eu/european-spiral/IMG_20150926_130807.jpg
     - Marseille
     -
         author: michael
